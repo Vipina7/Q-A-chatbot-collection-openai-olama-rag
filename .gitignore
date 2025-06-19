@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+.env.*
+.venv/
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code and IDE configs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+logs/
+*.bak
+
+# Test and coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Model and vector store files
+*.bin
+*.ckpt
+*.pt
+*.onnx
+*.pkl
+*.joblib
+index.faiss
+index.*
+
+# Frontend build (if using frontend framework)
+node_modules/
+build/
+public/
+*.js.map
+
+# Docker
+*.pid
+*.sock
+
+# LLM-specific
+llm_cache/
+langchain.db
+db.sqlite3
+
+# Other
+__results__/
+.cache/
