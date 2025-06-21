@@ -10,3 +10,4 @@ python-dotenv
 sentence_transformers
 pypdf
 streamlit
+langchain_chroma
